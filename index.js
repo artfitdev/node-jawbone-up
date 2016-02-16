@@ -264,6 +264,10 @@ module.exports = function(options) {
       image: create_getter_type('moves', 'image'),
       ticks: create_getter_type('moves', 'ticks')
     },
+    /** @class heartrates **/
+    heartrates:{
+      get: create_getter_xid('heartrates')
+    },
     /** @class meals */
     meals: {
       get: create_getter_xid('meals'),
